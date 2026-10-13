@@ -1,4 +1,4 @@
 # escanor-autofix-test
 
-Throwaway repository for proving Escanor's GitHub auto-fix end to end (13 Oct 2026).
-`add` in `calc.py` is deliberately wrong, so the check `python -m unittest` fails. Safe to delete.
+Test-only repo for Escanor's auto-fix proof scenarios (S1-S8). `scenario/base` is the known-good state; `main` is
+broken on purpose by `deploy-ops/autofix-proof/scenarios/*/break.sh` and restored by `reset.sh`. Do not use for real work.

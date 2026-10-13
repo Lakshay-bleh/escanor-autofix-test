@@ -1,8 +1,8 @@
-"""A tiny calculator. Throwaway repo for the Escanor auto-fix proof (13 Oct 2026)."""
+"""Tiny calculator used by the Escanor auto-fix proof scenarios."""
 
 
 def add(a, b):
-    return a - b
+    return a + b
 
 
 def multiply(a, b):
